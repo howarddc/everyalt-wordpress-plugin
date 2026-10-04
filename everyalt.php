@@ -44,7 +44,14 @@ if ( file_exists( $everyalt_puc ) ) {
 		__FILE__,
 		'everyalt'
 	);
-	$everyalt_updater->getVcsApi()->enableReleaseAssets();
+	// Only ever install the everyalt-<version>.zip attached to a release: it
+	// bundles the update checker. GitHub's auto-generated source zip doesn't,
+	// so a release without the asset is ignored rather than installed (which
+	// would silently end automatic updates on that site).
+	$everyalt_updater->getVcsApi()->enableReleaseAssets(
+		'/^everyalt-[0-9][0-9A-Za-z.\-]*\.zip$/',
+		class_exists( '\YahnisElsts\PluginUpdateChecker\v5p7\Vcs\Api' ) ? \YahnisElsts\PluginUpdateChecker\v5p7\Vcs\Api::REQUIRE_RELEASE_ASSETS : 2
+	);
 }
 
 /**

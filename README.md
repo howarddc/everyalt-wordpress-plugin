@@ -154,6 +154,7 @@ The plugin uses the `everyalt` text domain and ships with a `.pot` in `languages
 - **Changed** the plugin's home is now [howarddc/everyalt-wordpress-plugin](https://github.com/howarddc/everyalt-wordpress-plugin). Updates are checked there; the old address redirects, so nothing breaks for earlier versions.
 - **Changed** EveryAlt is now credited to [Rob Howard](https://howard.ai).
 - **Improved** the "prices as of" date in Settings is now set in one place and shown in each site's language, so future price updates don't need retranslating.
+- **Fixed** automatic updates now only install the `everyalt-<version>.zip` attached to a GitHub release. If a release is ever published without it, sites skip that release instead of installing GitHub's source zip, which lacks the update checker and would have silently stopped future updates.
 
 ### 1.1.0
 - **Accessibility (WCAG 2.1 AA).** A full review of every screen, with all failures fixed:
