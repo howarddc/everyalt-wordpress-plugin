@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt
@@ -19,7 +19,7 @@
  *
  * @package    EveryAlt
  * @subpackage EveryAlt/includes
- * @author     HDC <info@hdc.net>
+ * @author     Rob Howard
  */
 class Every_Alt_Loader {
 

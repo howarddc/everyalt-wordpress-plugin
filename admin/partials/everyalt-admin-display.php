@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt

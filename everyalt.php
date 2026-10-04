@@ -8,7 +8,7 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://hdc.net
+ * @link              https://howard.ai
  * @since             0.0.1
  * @package           EveryAlt
  *
@@ -17,8 +17,8 @@
  * Plugin URI:        https://everyalt.com
  * Description:       Instantly generate alternative text for all your images.
  * Version:           1.1.1
- * Author:            HDC
- * Author URI:        https://hdc.net
+ * Author:            Rob Howard
+ * Author URI:        https://howard.ai
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       everyalt
@@ -38,7 +38,9 @@ $everyalt_puc = plugin_dir_path( __FILE__ ) . 'vendor/plugin-update-checker/plug
 if ( file_exists( $everyalt_puc ) ) {
 	require_once $everyalt_puc;
 	$everyalt_updater = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-		'https://github.com/EveryAlt/everyalt-wordpress-plugin',
+		// Moved from EveryAlt/everyalt-wordpress-plugin in October 2026; GitHub redirects the old address
+		// for installs on earlier versions, but new versions should use the current one.
+		'https://github.com/howarddc/everyalt-wordpress-plugin',
 		__FILE__,
 		'everyalt'
 	);

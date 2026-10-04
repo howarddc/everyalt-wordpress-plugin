@@ -3,7 +3,7 @@
 /**
  * Fired during plugin activation
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt
@@ -18,7 +18,7 @@
  * @since      0.0.1
  * @package    EveryAlt
  * @subpackage EveryAlt/includes
- * @author     HDC <info@hdc.net>
+ * @author     Rob Howard
  */
 class Every_Alt_Activator {
 

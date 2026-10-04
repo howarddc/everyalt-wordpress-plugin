@@ -6,7 +6,7 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt
@@ -25,7 +25,7 @@
  * @since      0.0.1
  * @package    EveryAlt
  * @subpackage EveryAlt/includes
- * @author     HDC <info@hdc.net>
+ * @author     Rob Howard
  */
 class Every_Alt {
 
