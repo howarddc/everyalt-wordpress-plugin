@@ -5,7 +5,7 @@
  *
  * Deletes plugin settings, the stored API key, and logs on every site.
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt

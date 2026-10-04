@@ -1,14 +1,14 @@
 # German (Germany) translation for EveryAlt.
-# Copyright (C) 2025 HDC
+# Copyright (C) 2025 Rob Howard
 # This file is distributed under the same license as the EveryAlt package.
 msgid ""
 msgstr ""
 "Project-Id-Version: EveryAlt 1.1.1\n"
-"Report-Msgid-Bugs-To: https://hdc.net\n"
-"POT-Creation-Date: 2026-10-02 23:47+0000\n"
+"Report-Msgid-Bugs-To: https://howard.ai\n"
+"POT-Creation-Date: 2026-10-03 22:19+0000\n"
 "PO-Revision-Date: 2026-09-27 00:00+0000\n"
-"Last-Translator: HDC <info@hdc.net>\n"
-"Language-Team: Deutsch <info@hdc.net>\n"
+"Last-Translator: Rob Howard\n"
+"Language-Team: Deutsch\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -287,11 +287,11 @@ msgstr "Die Antwort wurde abgeschnitten (Token-Limit erreicht). Erhöhe „Max. 
 msgid "Secondary menu"
 msgstr "Sekundäres Menü"
 
-#. translators: 1: opening link to everyalt.com, 2: closing link tag, 3: opening link to hdc.net, 4: closing link tag
+#. translators: 1: opening link to everyalt.com, 2: closing link tag, 3: opening link to howard.ai, 4: closing link tag
 #: admin/partials/everyalt-options-display.php:27
 #, php-format
-msgid "%1$sEveryAlt%2$s is a free, open-source project created by %3$sHDC%4$s, a web dev firm for high-stakes projects and AI builds."
-msgstr "%1$sEveryAlt%2$s ist ein kostenloses Open-Source-Projekt von %3$sHDC%4$s, einer Webentwicklungsfirma für anspruchsvolle Projekte und KI-Lösungen."
+msgid "%1$sEveryAlt%2$s is a free, open-source project created by %3$sRob Howard%4$s."
+msgstr "%1$sEveryAlt%2$s ist ein kostenloses Open-Source-Projekt von %3$sRob Howard%4$s."
 
 #: admin/partials/everyalt-options-display.php:43
 msgid "Settings saved."

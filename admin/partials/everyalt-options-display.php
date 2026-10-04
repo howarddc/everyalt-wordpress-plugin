@@ -23,11 +23,11 @@ $everyalt_new_tab = '<span class="screen-reader-text"> ' . esc_html__( '(opens i
 			<?php
 			echo wp_kses(
 				sprintf(
-					/* translators: 1: opening link to everyalt.com, 2: closing link tag, 3: opening link to hdc.net, 4: closing link tag */
-					__( '%1$sEveryAlt%2$s is a free, open-source project created by %3$sHDC%4$s, a web dev firm for high-stakes projects and AI builds.', 'everyalt' ),
+					/* translators: 1: opening link to everyalt.com, 2: closing link tag, 3: opening link to howard.ai, 4: closing link tag */
+					__( '%1$sEveryAlt%2$s is a free, open-source project created by %3$sRob Howard%4$s.', 'everyalt' ),
 					'<a href="' . esc_url( 'https://everyalt.com' ) . '" target="_blank" rel="noopener noreferrer">',
 					$everyalt_new_tab . '</a>',
-					'<a href="' . esc_url( 'https://hdc.net' ) . '" target="_blank" rel="noopener noreferrer">',
+					'<a href="' . esc_url( 'https://howard.ai' ) . '" target="_blank" rel="noopener noreferrer">',
 					$everyalt_new_tab . '</a>'
 				),
 				array(

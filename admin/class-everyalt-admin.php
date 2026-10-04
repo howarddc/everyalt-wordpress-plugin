@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       https://hdc.net
+ * @link       https://howard.ai
  * @since      0.0.1
  *
  * @package    EveryAlt
@@ -18,7 +18,7 @@
  *
  * @package    EveryAlt
  * @subpackage EveryAlt/admin
- * @author     HDC <info@hdc.net>
+ * @author     Rob Howard
  */
 class Every_Alt_Admin {
 

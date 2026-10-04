@@ -55,7 +55,7 @@ Works on localhost, behind HTTP auth, and with your existing workflow.
 
 ## 📦 Install
 
-**Download the latest release:** [Releases](https://github.com/EveryAlt/everyalt-wordpress-plugin/releases/) — grab the `.zip` for the version you want.
+**Download the latest release:** [Releases](https://github.com/howarddc/everyalt-wordpress-plugin/releases/) — grab the `.zip` for the version you want.
 
 1. **Upload** the plugin to `wp-content/plugins/everyalt` (or install via WordPress admin).
 2. **Activate** the plugin (Plugins → EveryAlt → Activate).
@@ -151,6 +151,8 @@ The plugin uses the `everyalt` text domain and ships with a `.pot` in `languages
 
 ### 1.1.1
 - **Changed** the default OpenAI model is now **GPT-6 Luna**, OpenAI's recommended replacement for GPT-5.4 nano (which shuts down April 1, 2027). It's half the price per token ($0.10 input / $0.50 output per 1M tokens), and EveryAlt turns its reasoning off, as alt text doesn't need it. Sites using GPT-5.4 nano switch automatically; sites using Gemini or DeepInfra keep their choice.
+- **Changed** the plugin's home is now [howarddc/everyalt-wordpress-plugin](https://github.com/howarddc/everyalt-wordpress-plugin). Updates are checked there; the old address redirects, so nothing breaks for earlier versions.
+- **Changed** EveryAlt is now credited to [Rob Howard](https://howard.ai).
 - **Improved** the "prices as of" date in Settings is now set in one place and shown in each site's language, so future price updates don't need retranslating.
 
 ### 1.1.0
@@ -211,7 +213,7 @@ GPLv2 or later. See [LICENSE](LICENSE.txt) for details.
 
 ---
 
-## 💜 By [HDC](https://hdc.net)
+## 💜 By [Rob Howard](https://howard.ai)
 
 EveryAlt is free, open, and maintained with care. If it helps your site be more accessible, we’re glad.
 
