@@ -149,14 +149,12 @@ The plugin uses the `everyalt` text domain and ships with a `.pot` in `languages
 
 ## 📝 Changelog
 
-### Unreleased
-- **Fixed** automatic updates now only install the `everyalt-<version>.zip` attached to a GitHub release. If a release is ever published without it, sites skip that release instead of installing GitHub's source zip, which lacks the update checker and would have silently stopped future updates.
-
 ### 1.1.1
 - **Changed** the default OpenAI model is now **GPT-6 Luna**, OpenAI's recommended replacement for GPT-5.4 nano (which shuts down April 1, 2027). It's half the price per token ($0.10 input / $0.50 output per 1M tokens), and EveryAlt turns its reasoning off, as alt text doesn't need it. Sites using GPT-5.4 nano switch automatically; sites using Gemini or DeepInfra keep their choice.
 - **Changed** the plugin's home is now [howarddc/everyalt-wordpress-plugin](https://github.com/howarddc/everyalt-wordpress-plugin). Updates are checked there; the old address redirects, so nothing breaks for earlier versions.
 - **Changed** EveryAlt is now credited to [Rob Howard](https://howard.ai).
 - **Improved** the "prices as of" date in Settings is now set in one place and shown in each site's language, so future price updates don't need retranslating.
+- **Fixed** automatic updates now only install the `everyalt-<version>.zip` attached to a GitHub release. If a release is ever published without it, sites skip that release instead of installing GitHub's source zip, which lacks the update checker and would have silently stopped future updates.
 
 ### 1.1.0
 - **Accessibility (WCAG 2.1 AA).** A full review of every screen, with all failures fixed:
